@@ -59,6 +59,15 @@ Both tools follow the Zero Trust model — no open ports, access is verified, an
 - Tailscale IP access in browser
 
 ---
+## Dev Environment
+This project includes a `.devcontainer` configuration for VS Code.
+It sets up the environment automatically with all required tools.
+
+To use it:
+1. Open the project in VS Code
+2. Install the **Dev Containers** extension
+3. Click **Reopen in Container** when prompted
+---
 
 ## Conclusion
 Cloudflare is useful for exposing services to the public securely. Tailscale is useful for private and secure communication between devices. Both avoid opening ports and improve security.
